@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: darkgray;
+  }
+  
+  h2 {
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .leftSide {
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 50%;
+    text-align: center;
+    padding-top: 25vh;
+  }
+  
+  .rightSide {
+    background-color: rgb(43, 36, 36);
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rightSide > div {
+    width: 70%;
+    margin: auto;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  input {
+    border: none;
+    background-color: black;
+    padding: 1.4rem 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    width: 25rem;
+    color: darkgray;
+    border-radius: 5px;
+  }
+  
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+  
+  button {
+    border: none;
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 700;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 25rem;
+    margin-top: 1rem;
+  }
